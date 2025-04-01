@@ -1,6 +1,7 @@
 # SUMOT-deployment
 
 This repository contains Kubernetes configuration files for deploying the SUMOT application using ArgoCD.
+The main repository of the project is located to : https://github.com/marcderoo/SUMOT.git
 
 ## Architecture
 The deployment relies on a fully automated CI/CD pipeline:
@@ -45,4 +46,12 @@ You can also monitor the deployment through the ArgoCD dashboard.
 
 ## Contributors
 
-- 
+- Maxime Chappuis
+
+- Arnaud Cournil
+
+- Marc Deroo
+
+- Meryem El Aissaoui
+
+- Laurent Vong
