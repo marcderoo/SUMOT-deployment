@@ -27,8 +27,6 @@ containers:
 Then commit and push the changes:
 
 ```bash
-Copier
-Modifier
 git add deployment/deployment.yaml
 git commit -m "Update to version vX.Y.Z"
 git push origin main
@@ -38,11 +36,11 @@ ArgoCD will detect the change and automatically update the application.
 2️⃣ Verify the Deployment
 Once pushed, check the deployment status using:
 
-bash
-Copier
-Modifier
+```bash
 kubectl get pods
 kubectl get services
+```
+
 You can also monitor the deployment through the ArgoCD dashboard.
 
 ## Contributors
