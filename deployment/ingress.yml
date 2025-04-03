@@ -6,9 +6,9 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - sumot.lab.sspcloud.fr # <--- MODIFIÉ ICI
+    - sumot-marcdro.lab.sspcloud.fr # <--- MODIFIÉ ICI
   rules:
-  - host: sumot.lab.sspcloud.fr # <--- MODIFIÉ ICI
+  - host: sumot-marcdro.lab.sspcloud.fr # <--- MODIFIÉ ICI
     http:
       paths:
       - path: /
