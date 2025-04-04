@@ -5,7 +5,7 @@ metadata:
   labels:
     app: sumot
   annotations:
-    timestamp: '1743755325'
+    timestamp: '1743755467'
 spec:
   replicas: 1
   selector:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: sumot
-          image: mderoo4/sumot:v0.0.18
+          image: mderoo4/sumot:latest
           ports:
             - containerPort: 8000
           env:
