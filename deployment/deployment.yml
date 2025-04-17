@@ -5,7 +5,7 @@ metadata:
   labels:
     app: sumot
   annotations:
-    timestamp: '1744884297'
+    timestamp: '1744885634'
 spec:
   replicas: 1
   selector:
